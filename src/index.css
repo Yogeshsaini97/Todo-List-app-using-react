@@ -1,13 +1,152 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media (max-width:650px)
+{
+    #containerid{
+
+        width: 400px;
+        height: 744px;
+            
+      
+
+    }
+ }
+
+
+body{
+    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+    /* border:2px solid red; */
+    height: 678px;
+    width: 676px;
+    background-color: #cba8c5;
+    border-radius: 30px;
+    
+    }
+
+
+
+
+
+.containertwo{
+    /* border:2px solid red; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: large;
+    background-image: url("./todobac.jpg");
+    
+
+}
+.containertwo h1{
+
+    text-shadow: 0px 4px 5px #b8000091;
+    animation: yogesh 6s ease-in-out 0s 1;
+    position: relative;
+
+
+}
+
+
+.insideinput{
+    /* border: 2px solid red; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: large;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 2px 24px 6px rgb(255 255 255);
+    border-radius: 10px;
+    
+
+}
+.outsideinput{
+        display:flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    
+}
+.btn{
+    height: 34px;
+    width: 40px;
+    border-radius: 32px;
+    /* border: 2px solid red; */
+    font-size: 26px;
+    margin: 0px 0px 0px 9px;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+
+@keyframes yogesh {
+0%
+{    
+    top:0px;
+    right:0px;
+    left:200px;
+    bottom:0px;
+}
+25%
+{
+    top:0px;
+    right:200px;
+    left:0px;
+    bottom:200px;
+}
+50%{
+    top:0px;
+    right:200px;
+    left:0px;
+    bottom:0px;
+}
+75%
+{
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:200px;
+}
+100%
+{
+    top:0px;
+    right:0px;
+    left:80px;
+    bottom:0px;
+}
+}
+
+
+
+
+.btn:hover{
+    background-color: green;
+    /* transform:rotate(180deg); */
+   
+}
+.divkeandr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnn{
+    height: 34px;
+    width: 40px;
+    border-radius: 32px;
+    /* border: 2px solid red; */
+    font-size: 26px;
+    margin: 0px 0px 0px 9px;
+    transition: all 0.4s ease-in-out;
+}
+.btnn:hover{
+    background-color: red;
 }
